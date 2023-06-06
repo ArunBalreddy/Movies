@@ -1,0 +1,121 @@
+.website-logo {
+}
+
+.navbar {
+  background: #131313;
+  opacity: 0.7;
+  width: 100%;
+}
+.website-logo-container {
+  display: flex;
+  color: #ffffff;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+  height: 103px;
+  position: absolute;
+  left: 11.5%;
+}
+.home-navigation {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  letter-spacing: -0.355556px;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+.popular-navigation {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  letter-spacing: -0.355556px;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+.profile {
+  position: absolute;
+  left: 85.21%;
+  border-radius: 25px;
+
+  background: #ffffff;
+  margin-left: 10px;
+}
+.profile-container {
+  display: flex;
+  color: #ffffff;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+  height: 103px;
+}
+.search-icon {
+  position: absolute;
+  left: 81.32%;
+  top: 4.83%;
+  color: #ffffff;
+}
+.menu-icon {
+  display: none;
+}
+.menu-list-container {
+  display: none;
+}
+.search-icon-button {
+  background-color: transparent;
+  border: none;
+}
+@media screen and (max-width: 600px) {
+  .navbar {
+    height: 70px;
+  }
+  .website-logo {
+    width: 100px;
+    position: absolute;
+    left: 8.89%;
+
+    top: 25.07%;
+  }
+  .popular-navigation {
+    display: none;
+  }
+  .home-navigation {
+    display: none;
+  }
+  .profile {
+    display: none;
+  }
+  .search-icon {
+    position: absolute;
+    left: 71.11%;
+    right: 22.22%;
+    top: 3.32%;
+    bottom: 93.61%;
+  }
+  .menu-icon {
+    display: block;
+    position: absolute;
+    left: 84.44%;
+    right: 8.89%;
+    top: 3.56%;
+    bottom: 93.16%;
+  }
+  .menu-list-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    color: #ffffff;
+  }
+}
